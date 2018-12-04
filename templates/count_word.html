@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <!-- <script>
+            document.getElementById("text").innerHTML = ans
+            // document.write("hello")
+            </script> -->
+    </head>
+    <div id="text"><h1>hello this is ans page</h1></div>
+    <br>
+    <h2>Counted words are :</h2><b>{{ length }}</b>
+    <br>
+    <h2>Dictonary:</h2><br>
+    {{ text }}
+    <hr>
+    {% for word,value in worddictonary %}
+    {{ word }} = {{ value }}
+    <br>
+    <br>
+    {% endfor %}
+    </html>
